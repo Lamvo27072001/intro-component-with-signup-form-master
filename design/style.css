@@ -1,0 +1,126 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('/images/bg-intro-desktop.png');
+    background-color: hsl(0, 100%, 74%);
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    font-family: var(--font-family);
+}
+
+.left h3 {
+    margin: 250px 60px 0px 100px;
+    color: white;
+    font-size: 45px;
+    text-align: left;
+}
+
+.left p {
+    color: white;
+    text-align: left;
+    margin-left: 100px;
+    font-family: var(--font-family);
+    font-size: 18px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.right {
+    flex: 1;
+}
+
+#top {
+    display: flex;
+    height: 50px;
+    width: 70%;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 5px;
+    box-shadow: 0px 0px 14px 0px #888888;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+#free {
+    font-family: var(--font-family);
+    text-align: center;
+    padding: 14px;
+    padding-right: 0px;
+    color: white;
+    margin-left: 90px;
+    font-size: 16px;
+}
+
+#cost {
+    text-align: center;
+    padding: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-left: 5px;
+    font-family: var(--font-family);
+    font-size: 16px;
+}
+
+#frm_signup {
+    width: 70%;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#frm_signup input {
+    width: 85%;
+    height: 45px;
+    margin: 30px 40px 10px 40px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+input,
+select {
+    font-size: 18px;
+    padding: 12px 20px;
+}
+
+button {
+    width: 85%;
+    height: 45px;
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 4px;
+    border: none;
+    margin: 20px 40px 10px 40px;
+    color: white;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 800;
+}
+
+button:active {
+    box-shadow: 0 4px 1px -2px gray;
+    transform: translateY(4px);
+}
+
+#frm_signup p {
+    text-align: center;
+    margin-top: 10px;
+    font-family: var(--font-family);
+    font-size: 12px;
+    color: gray;
+}
+
+#frm_signup a {
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+    font-weight: 900;
+}
