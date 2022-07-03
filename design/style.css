@@ -80,9 +80,9 @@ body {
 }
 
 #frm_signup input {
-    width: 85%;
+    width: 460px;
     height: 45px;
-    margin: 30px 40px 10px 40px;
+    margin: 30px 20px 10px 30px;
     border-radius: 4px;
     border: 1px solid grey;
 }
@@ -94,12 +94,12 @@ select {
 }
 
 button {
-    width: 85%;
+    width: 460px;
     height: 45px;
     background-color: hsl(154, 59%, 51%);
     border-radius: 4px;
     border: none;
-    margin: 20px 40px 10px 40px;
+    margin: 20px 20px 10px 30px;
     color: white;
     font-family: var(--font-family);
     font-size: 16px;
@@ -123,4 +123,8 @@ button:active {
     color: hsl(0, 100%, 74%);
     text-decoration: none;
     font-weight: 900;
+}
+
+#frm_signup img {
+    display: none;
 }
